@@ -6,7 +6,6 @@ import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
-import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
     val TAG: String = "MainActivity"!!
@@ -19,9 +18,6 @@ class MainActivity : AppCompatActivity() {
     val O_BRACKETS = '('!!
     val C_BRACKETS = ')'!!
 
-//    private var mFirstNumber: String? = ""
-//    private var mLastNumber: String? = ""
-//    private var mOparator: String? = ""
     private var mExpression: String? = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
